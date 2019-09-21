@@ -1,0 +1,23 @@
+B12:
+we downloaded filezilla server on computer-1 and filezilla client on computer-2 and connected the two by entering the host 
+and ip address port and according  to username and password as mentioned.
+Difficulty-
+when changed few settings logging to collect the tcpdump and we faced a problem
+when we were asked to add a key file of .ptt extension and we were unaware of the working of the putty gen.
+
+Method-2:
+we installed wireshark and through cmd command prompt in windows using ftp commands we tried to connect two laptops but we failed connecting.
+we tried to atleast connect to a server(dummy eg:ftp.mcafee.com which is anonymous) and upload it was connecting to server but we failed to upload files.
+
+Method-3:
+we created a virtual machine in the same laptop and try to connect but the connection was timed out.we tried  
+
+Method-4:
+installed Windump
+Changed the directory to your download directory which had only 1 file.
+we used the below command to capture the dump of the downloaded file.
+windump -i 2 -q -w C:\perflogs\diagTraces -n -C 30 -W 10 -U -s 0
+
+in c drive in perlogs the file called "diagtraces" had the tcp dump.
+
+Ouput:the tcp dump has been uploaded as a file

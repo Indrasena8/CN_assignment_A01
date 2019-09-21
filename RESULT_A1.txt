@@ -1,0 +1,29 @@
+Input: 198.10.0.1
+Output : 198.10.0.1 is Valid
+Description:
+198   .   10  .  0  .  1
+a=198
+b=10
+c=0
+d=1
+
+a<240
+d>0 and d<256
+b>0 and d<256
+c>0 and d<256
+
+Hence valid
+
+Counter example:(Invalid example)
+Input: 10.0.1.1
+Output: 10.0.1.1 is Invalid
+Description:
+10  .  0  .  1  .  1
+a=10
+b=0
+c=1
+d=1
+
+a==10
+Hence, directly invalid is the result 
+Because it is out of IP Address range

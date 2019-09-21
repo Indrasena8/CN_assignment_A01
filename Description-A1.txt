@@ -1,0 +1,7 @@
+Github Repository Link:
+
+
+How to run the program?
+Compile the program
+Give the filename with  command line argument(IP address in the format a.b.c.d)
+Example: HA01G01A 8.8.0.1
